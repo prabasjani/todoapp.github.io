@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(bg.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-task-container{
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 20px;
+}
+input{
+    flex: 5;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+#addTask{
+    flex: 1;
+    padding: 5px;
+    font-size: 24px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid green;
+    color: green;
+    transition: all 0.3s;
+}
+#addTask:hover{
+    background: green;
+    color: #fff;
+}
+
+.task{
+    width: 430px;
+    background: #fff;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px;
+}
+li{
+    flex: 4;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px ;
+}
+button{
+    flex: .5;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.checkBtn{
+    border: 2px solid orange;
+    color: orange;
+    margin-right: 5px;
+}
+.checkBtn:hover{
+    background: orange;
+    color: #fff;
+}
+
+.deleteBtn{
+    border: 2px solid red;
+    color: red;
+}
+.deleteBtn:hover{
+    background: red;
+    color: #fff;
+}
